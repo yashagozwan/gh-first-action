@@ -5,6 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World"
+        run: |
+            echo "Hello World"
+            echo "Hi, There!"
+            echo "flutter"
+            echo "dart"
+            echo "JavaScript"
+            echo "Flutter is Awesome"
       - name: Print goodbye
         run: echo "Done - bye!"
